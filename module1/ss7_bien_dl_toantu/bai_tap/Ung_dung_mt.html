@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vn">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<h1> Caculator</h1>
+
+<input type="number" id="number1" placeholder="Nhập số thứ nhất">
+<input type="number" id="number2" placeholder="Nhập số thứ hai">
+ <br>
+<button onclick="result1()">Trừ</button>
+<button onclick="result2()">Cộng</button>
+<button onclick="result3()"> Chia</button>
+<button onclick="result4)">Nhan</button>
+<div id="result"></div>
+<h3> result: </h3>
+<script>
+    function result1() {
+
+        let number1 = +document.getElementById("number1").value;
+        let number2 = +document.getElementById("number2").value;
+     let t= number1 - number2;
+     document.getElementById("result").innerHTML=t;
+    }
+
+    function result2() {
+
+        let number1 = +document.getElementById("number1").value;
+        let number2 = +document.getElementById("number2").value;
+       document.getElementById("result").innerHTML=number1+number2;
+    }
+
+    function result3() {
+
+        let number1 = +document.getElementById("number1").value;
+        let number2 = +document.getElementById("number2").value;
+        let h = number1 / number2;
+        document.getElementById("result").innerHTML=h;
+
+    }
+
+    function result4() {
+
+        let number1 = +document.getElementById("number1").value;
+        let number2 = +document.getElementById("number2").value;
+        let n= number1 - number2;
+        document.getElementById("result").innerHTML=n;
+    }
+</script>
+</body>
+</html>

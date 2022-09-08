@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ỨNG DỤNG TIỀN TỆ </title>
+</head>
+<body>
+<table>
+
+        <tr>
+            <th><b> Amount</b></th>
+            <th> From Currency</th>
+            <th> To Currency</th>
+        </tr>
+        <tr>
+            <td><input type="number" id="money"></td>
+            <td>
+                <select id="from">
+                    <option value="vnd"> Tiền việt nam</option>
+                    <option value="usd"> Đô là mỹ</option>
+                </select>
+            </td>
+            <td>
+                <select id="to">
+                    <option> VND</option>
+                    <option> USD</option>
+                </select>
+            </td>
+        </tr>
+
+</table>
+<button type="button" onclick="doiTien()" value="Convert">Convert</button>
+<script>
+
+    function doiTien() {
+        let result=0;
+        let money = document.getElementById("money").value;
+        let from = document.getElementById("from").value;
+        let to = document.getElementById("to").value;
+        if (from === "usd"&&to==="vnd") {
+            result = money * 23
+        } else {
+          result= money / 23
+        }
+        document.write(result);
+
+    }
+
+
+</script>
+</body>
+</html>
