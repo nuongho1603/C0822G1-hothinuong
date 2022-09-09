@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> TH3</title>
+</head>
+<body>
+<H3> KIEM TRA NAM NHUAN</H3>
+<script>
+ var year = parseInt(prompt("Enter a year"));
+
+ var isLeapYear = false;
+
+ var isDivisvleBy4 = year % 4 == 0;
+ if (isDivisivleBy4) {
+     var isDivisibleBy100 = year % 100 == 0;
+     if (isDivisibleBy100) {
+         var isDivisibleleBy400 = year % 400 ==0;
+          if (isDivisibleleBy400){
+              isLeapYear = true;
+          }
+
+     }else {
+         isLeapYear = true;
+     }
+ }
+ if (isLeapYear){
+
+ }
+</script>
+</body>
+</html>
