@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính đơn giản </title>
+</head>
+<body>
+<h3> Máy tính đơn giản </h3>
+<table>
+    <tr>
+        <td colspan="4"><input type="text" id="result"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="display1()" value="1"></td>
+        <td><input type="button" onclick="display2()" value="2"></td>
+        <td><input type="button" onclick="display3()" value="3"></td>
+        <td><input type="button" onclick="displayCong()" value="+"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="display4()" value="4"></td>
+        <td><input type="button" onclick="display5()" value="5"></td>
+        <td><input type="button" onclick="display6()" value="6"></td>
+        <td><input type="button" onclick="displayTru()" value="-"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="display7()"value="7"></td>
+        <td><input type="button" onclick="display8()" value="8"></td>
+        <td><input type="button" onclick="display9()" value="9"></td>
+        <td><input type="button" onclick="displayNhan()" value="X"></td>
+    </tr>
+    <tr>
+        <td><input type="button" onclick="clearall()" value="C"></td>
+        <td><input type="button" onclick="display0()" value="0"></td>
+        <td><input type="button" onclick="ketQua()" value="="></td>
+        <td><input type="button" onclick="displayChia()" value="/"></td>
+    </tr>
+</table>
+<script>
+    function display1() {
+
+        document.getElementById("result").value +=1;
+    }
+    function display2() {
+let str= document.getElementById("result").value;
+document.getElementById("result").value = str +2;
+    }
+    function display3() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +3;
+    }
+    function displayCong() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +"+";
+    }
+    function display4() {
+
+        document.getElementById("result").value +=4;
+    }
+    function display5() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +5;
+    }
+    function display6() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +6;
+    }
+    function displayTru() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +"-";
+    }    function display7() {
+
+        document.getElementById("result").value +=7;
+    }
+    function display8() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +8;
+    }
+    function display9() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +9;
+    }
+    function displayNhan() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +"*";
+    }
+    function clearall() {
+
+        document.getElementById("result").value ="";
+    }
+    function display0() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +0;
+    }
+    function ketQua() {
+        let str= document.getElementById("result").value;
+        let ketQua =eval(str);
+        document.getElementById("result").value = str +"="+ ketQua;
+    }
+    function displayChia() {
+        let str= document.getElementById("result").value;
+        document.getElementById("result").value = str +"/";
+    }
+
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tien = prompt('Nhập tiền lương tháng này của bạn: ');
+    if (tien < 2000000) {
+        alert('Ban khong can dong thue');
+    } else if (tien > 2000000 && tien < 8000000) {
+        let thue = 0.01 * tien;
+        alert('Ban phai dong thue:' + thue + ' (đ)');
+    } else if (tien > 8000000 && tien < 14000000) {
+        let thue = 0.02 * tien;
+        alert('Ban phai dong thue:' + thue + ' (đ)');
+    } else {
+        let thue = 0.45 * tien;
+        alert('ban phai dong thue' + thue + ' (đ)');
+    }
+
+</script>
+</body>
+</html>

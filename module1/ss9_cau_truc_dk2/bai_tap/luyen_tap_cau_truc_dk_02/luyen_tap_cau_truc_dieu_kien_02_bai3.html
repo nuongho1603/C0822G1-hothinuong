@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> Canh hinh vuong:</p>
+<input type="number" id="number" placeholder="Nhap canh hinh vuong vao:">;
+<input type="button" onclick="dientich()" value="Check dien tich">
+<div id="result"> </div>
+<script>
+    function dientich() {
+      let number=document.getElementById("number").value;
+      let dientich=number*number;
+      document.getElementById("result").innerHTML=('Dien tich hinh vuong = ' +dientich +'(cm^2)');
+
+    }
+
+</script>
+</body>
+</html>

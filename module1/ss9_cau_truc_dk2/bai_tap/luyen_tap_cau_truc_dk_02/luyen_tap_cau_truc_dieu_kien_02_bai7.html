@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt('Nhap he so a:');
+    let b = prompt('Nhap he so b:');
+    let c = prompt('Nhap he so c:');
+        let delta = (b * b) - (4 * a * c);
+        if (delta < 0) {
+            alert('PT vo nghiem.');
+        } else if (delta = 0) {
+            let x = -b / (2 * a);
+            alert('PT co nghiem kep x1=x2=' + x);
+        } else {
+            let x1 = (-b + Math.sqrt((b*b)-(4*a*c))) / (2 * a);
+            let x2 = (-b - Math.sqrt((b*b)-(4*a*c))) / (2 * a);
+            alert('PT co 2 nghiem phan biet x1=' + x1 + 'x2=' + x2);
+        }
+
+</script>
+</body>
+</html>

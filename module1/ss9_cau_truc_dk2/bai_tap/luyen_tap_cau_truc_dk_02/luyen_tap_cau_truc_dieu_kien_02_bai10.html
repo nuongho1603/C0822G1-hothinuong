@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> So dien da su dung(kWh): </p>
+<input type="number" id="soDien" placeholder="Nhap so dien vao">
+<input type="button" onclick="ketQua()" value="Click me!">
+<div id="result"> </div>
+<script>
+    function ketQua() {
+        let soDien = document.getElementById('soDien').value;
+        let bac1 = 1.678;
+        let bac2 = 1.734;
+        let bac3 = 2.014;
+        let bac4 = 2.536;
+        let bac5 = 2.834;
+        let bac6 = 2.927;
+        if (soDien < 50) {
+            let tienDien = soDien * bac1;
+            document.getElementById("result").innerHTML = ('GÍA tIỀN ĐIỆN NHÀ BẠN LÀ: ' + tienDien + ' (đ) ');
+        } else if (soDien < 100) {
+            let tienDien = soDien * bac2;
+            document.getElementById("result").innerHTML = ('GÍA tIỀN ĐIỆN NHÀ BẠN LÀ: ' + tienDien + ' (đ) ');
+        } else if (soDien < 200) {
+            let tienDien = soDien * bac3;
+            document.getElementById("result").innerHTML = ('GÍA tIỀN ĐIỆN NHÀ BẠN LÀ: ' + tienDien + ' (đ) ');
+        } else if (soDien < 300) {
+            let tienDien = soDien * bac4;
+            document.getElementById("result").innerHTML = ('GÍA tIỀN ĐIỆN NHÀ BẠN LÀ: ' + tienDien + ' (đ) ');
+        } else if (soDien < 400) {
+            let tienDien = soDien * bac5;
+            document.getElementById("result").innerHTML = ('GÍA tIỀN ĐIỆN NHÀ BẠN LÀ: ' + tienDien + ' (đ) ');
+        } else {
+            let tienDien = soDien * bac6;
+            document.getElementById("result").innerHTML = ('GÍA tIỀN ĐIỆN NHÀ BẠN LÀ: ' + tienDien + ' (đ) ');
+        }
+    }
+
+
+
+
+</script>
+</body>
+</html>

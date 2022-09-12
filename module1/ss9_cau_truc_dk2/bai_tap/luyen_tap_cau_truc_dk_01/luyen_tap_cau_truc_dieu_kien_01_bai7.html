@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let phicodinh=25;
+    let phut = prompt('Số phút bạn đã sử dụng là:');
+  if (phut<=30) {
+      let cuoc = phut*400+phicodinh;
+          alert('Cước điện thọai bạn gọi được = ' + cuoc + 'đồng ');
+  }else if(phut<=150) {
+      let cuoc=phut*300+phicodinh;
+      alert('Cước điện thọai bạn gọi được = ' + cuoc + 'đồng ');
+  } else {
+      let cuoc= phut*200+phicodinh;
+      alert('Cước điện thọai bạn gọi được = ' + cuoc + 'đồng ');
+  }
+</script>
+</body>
+</html>

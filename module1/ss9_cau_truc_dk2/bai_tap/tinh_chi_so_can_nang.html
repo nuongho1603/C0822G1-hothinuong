@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title> Tính chỉ số cân nặng của cơ thể </title>
+</head>
+<body>
+<h3>Body mass index-BMI</h3>
+<script>
+let c = prompt('Ban hay nhap can nang vao day:','');
+let h = prompt(' Chieu cao cua ban hien tai la:','');
+let b = c/(h*h);
+    if (b<18.5) {
+      document.write("Underweight");
+    } else if (b<25 && b> 18.5) {
+        document.write("Normal");
+    } else if (b<30 && b> 25) {
+        document.write("Overweight");
+    } else document.write("Obese");
+</script>
+</body>
+</html>
