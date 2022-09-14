@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form><input type="button" onclick="Play()" value="Play"></form>
+
+<script>
+    function Play() {
+        let so = +prompt('Số bạn muốn đoán trong khoảng lớn nhất là bao nhiêu?');
+        let ngauNhien = Math.floor(Math.random() * so);
+        let soDuDoan = +prompt('So ban du doan la:');
+        while (soDuDoan < ngauNhien || soDuDoan > ngauNhien) {
+            if (soDuDoan < ngauNhien) {
+                alert('SỐ bạn đoán nhỏ hơn gia tri ngau nhien');
+            }
+            if (suDuDoan > ngauNhien) {
+                alert('Số bạn đoán lớn hơn gia tri ngau nhien');
+            }
+            soDuDoan = +prompt('Nhap lai so du doan');
+        }
+        if (soDuDoan === ngauNhien) {
+            alert('Chuc mung ban!');
+        }
+    }
+
+
+</script>
+</body>
+</html>

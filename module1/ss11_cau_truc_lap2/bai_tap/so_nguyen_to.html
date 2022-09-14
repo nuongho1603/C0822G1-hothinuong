@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="demo"></p>
+<script>
+    let numbers = prompt('Nhap n so nguyen to muon hien thi:');
+    let dieuKien = 0;
+    let text = "";
+    let nguyenTo = 3;
+    while (dieuKien < numbers) {
+        let checkSoNguyenTo = true;
+        for (let i = 2; i < nguyenTo; i += 1) {
+            if (i == 2 && nguyenTo == 3) {
+                text += i + " ";
+                dieuKien += 1;
+            }
+            if (nguyenTo % i == 0 ) {
+                checkSoNguyenTo = false;
+                break;
+            }
+        }
+        if (checkSoNguyenTo){
+            text += nguyenTo + " ";
+            dieuKien += 1;
+        }
+        nguyenTo += 1;
+    }
+    document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>

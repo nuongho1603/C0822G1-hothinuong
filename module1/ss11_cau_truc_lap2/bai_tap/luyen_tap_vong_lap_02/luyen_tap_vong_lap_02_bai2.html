@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p> Tính giai thừa của một số nguyên dương </p>
+<script>
+    let giaiThua = 1;
+    let nguyenDuong = prompt("Nhap so nguyen duong:");
+    if (nguyenDuong > 0) {
+        for (let i = 1; i <= nguyenDuong; i++) {
+            giaiThua *= i;
+        }
+    } else {
+        alert('Khong phai so nguyen duong!!');
+    }
+    document.write(giaiThua);
+</script>
+</body>
+</html>
