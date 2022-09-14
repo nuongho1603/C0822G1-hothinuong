@@ -12,9 +12,12 @@
 
 <script>
     let tienGoc = prompt('So tien ban dau:');
-    let latSuat = prompt('Lai suat hang thang :');
+    let laiSuat = prompt('Lai suat hang thang :');
+    let tienLai =0;
     let thoiGian = prompt('Nhap vao thoi gian vay:')
-    
+    for (let i = 1; i <= thoiGian; i++) {
+        tienLai = (tienGoc + tienLai)*laiSuat/100 ;
+    } document.write(tienLai);
 </script>
 </body>
 </html>

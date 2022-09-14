@@ -6,7 +6,7 @@
 </head>
 <body>
 <h3> Bài 6: Tính hoa hồng nhận được tuỳ theo mức doanh số bán hàng</h3>
-<input type="number" id="bonghoa" placeholder="Nhập số bông bán được ">
+<input type="number" id="bongHoa" placeholder="Nhập số bông bán được ">
 <input type="button" onclick="check()" value="Check hoa hong">
 <div id="result"> Đây là kết quả </div>
 
@@ -14,8 +14,8 @@
 
     function check() {
 
-        let bonghoa = document.getElementById("bonghoa").value;
-        document.getElementById("result").innerHTML = (bonghoa*20*0.1 + ' tiền hoa hồng');
+        let bongHoa = document.getElementById("bongHoa").value;
+        document.getElementById("result").innerHTML = (bongHoa*20*0.1 + ' tiền hoa hồng');
     }
 </script>
 </body>

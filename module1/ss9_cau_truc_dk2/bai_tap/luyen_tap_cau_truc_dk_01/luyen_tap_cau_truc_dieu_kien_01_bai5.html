@@ -6,15 +6,15 @@
 </head>
 <body>
 <script>
-    let kiemtra = prompt('Nhập điểm bài kiểm tra của bạn:','');
-    let giuaki = prompt('Nhập điểm thi giữa kỳ','');
-    let cuoiky = prompt('Nhập điểm thi cuối kỳ','');
-    let trungbinh = (kiemtra + giuaki + cuoiky)/3;
-    if (trungbinh > 9) {
+    let kiemTra = prompt('Nhập điểm bài kiểm tra của bạn:','');
+    let giuaKi = prompt('Nhập điểm thi giữa kỳ','');
+    let cuoiKy = prompt('Nhập điểm thi cuối kỳ','');
+    let trungBinh = (kiemTra + giuaKi + cuoiKy)/3;
+    if (trungBinh > 9) {
         alert('Đạt hạng A.');
-    } else if (trungbinh < 9 && trungbinh >= 7) {
+    } else if (trungBinh < 9 && trungBinh >= 7) {
         alert('Đạt hạng B.');
-    } else if (trungbinh < 7 && trungbinh >= 5) {
+    } else if (trungBinh < 7 && trungBinh >= 5) {
         alert('Đạt hạng C.');
     } else alert('Đạt hạng F.');
 

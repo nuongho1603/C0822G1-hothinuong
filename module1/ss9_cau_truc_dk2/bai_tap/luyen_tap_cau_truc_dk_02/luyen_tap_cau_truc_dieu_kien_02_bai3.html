@@ -7,13 +7,13 @@
 <body>
 <p> Canh hinh vuong:</p>
 <input type="number" id="number" placeholder="Nhap canh hinh vuong vao:">;
-<input type="button" onclick="dientich()" value="Check dien tich">
+<input type="button" onclick="dienTich()" value="Check dien tich">
 <div id="result"> </div>
 <script>
-    function dientich() {
+    function dienTich() {
       let number=document.getElementById("number").value;
-      let dientich=number*number;
-      document.getElementById("result").innerHTML=('Dien tich hinh vuong = ' +dientich +'(cm^2)');
+      let dienTich=number*number;
+      document.getElementById("result").innerHTML=('Dien tich hinh vuong = ' +dienTich +'(cm^2)');
 
     }
 
