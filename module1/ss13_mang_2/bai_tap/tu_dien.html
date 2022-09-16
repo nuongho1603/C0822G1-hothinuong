@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Phát triển một ứng dụng từ điển đơn giản. Ứng dụng cho phép tra cứu các từ tiếng Anh sang tiếng Việt.-->
+<!--Danh sách các từ được lưu trữ trong các mảng.-->
+
+<script>
+    let tu = prompt("Nhap tu can tim:");
+    let anh = ['apple', 'banana'];
+    let viet = ['Táo', 'Chuối'];
+
+    if (anh.includes(tu)) {
+        let index = anh.indexOf(tu);
+        document.write(viet[index]);
+    } else {
+        document.write("Từ bạn cần tìm không có.");
+    }
+
+</script>
+</body>
+</html>
