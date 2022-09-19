@@ -7,14 +7,24 @@
 <body>
 <!--Bài 5: Viết một chương trình nhập vào 2 chuỗi, sau đó kiểm tra xem hai chuỗi có giống nhau hay không.-->
 <script>
-    let chuoi1 = prompt('Nhap chuoi thu nhat:', '');
-    let chuoi2 = prompt('Nhap chuoi thu hai:', '');
-    if (chuoi1 === chuoi2) {
-        document.write("Hai chuoi giong nhau");
-    } else {
-        document.write("Hai chuoi khac nhau");
+    let arr1 = prompt('Nhap chuoi thu nhat:', '');
+    let arr2 = prompt('Nhap chuoi thu hai:', '');
+    let count =0;
+    if (arr1.length === arr2.length) {
+     for(i=0;i<arr1.length;i++) {
+         if (arr1[i] === arr2[i]) {
+             count++;
+         } else {
+             document.write("Hai chuoi khong giong nhau.");
+             break;
+         }
+         if(count === arr1.length) {
+             document.write('Hai chuoi giong nhau.');
+         }
+     }
+    }else {
+        document.write('Hai chuoi khong giong nhau');
     }
-
 </script>
 </body>
 </html>

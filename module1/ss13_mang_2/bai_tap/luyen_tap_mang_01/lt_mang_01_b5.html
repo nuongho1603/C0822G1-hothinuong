@@ -9,11 +9,13 @@
 <script>
     let chuoi = prompt('Nhap chuoi ban muon: ');
     let bienDem = 0;
-    for (let i=0;i< chuoi.length;i++) {
-        if (chuoi[i] === 'a' || chuoi[i] === 'e' || chuoi[i] === 'i' || chuoi[i] === 'o' || chuoi[i] === 'u') {
-            bienDem ++;
+    for (let i = 0; i < chuoi.length; i++) {
+        if (chuoi[i] === 'a' || chuoi[i] === 'e' || chuoi[i] === 'i' || chuoi[i] === 'o' || chuoi[i] === 'u' ||
+            chuoi[i] === 'A' || chuoi[i] === 'E' || chuoi[i] === 'I' || chuoi[i] === 'O' || chuoi[i] === 'U') {
+            bienDem++;
         }
-    } document.write(bienDem);
+    }
+    document.write(bienDem);
 </script>
 </body>
 </html>

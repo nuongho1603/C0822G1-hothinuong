@@ -10,14 +10,14 @@
 <!--(Bản chất việc xoá ở đây tức là dịch phần tử ở bên phải V sang vị trí của V,
 và gán 0 cho phần tử cuối cùng của mảng)-->
 <script>
-    let soNguyenArr = [];
-    for (let i = 0; i< 10; i++) {
-        soNguyenArr[i] = +prompt('Nhap vi tri so nguyen thu: ');
-    }
-    let soNguyenV= +prompt('Nhap so nguyen V: ');
-    if (soNguyenArr.includes(soNguyenV)) {
-        let index=soNguyenArr.indexOf(soNguyenV);
-        soNguyenArr.splice(index,1);
+    let soNguyenArr = [1, 2, 3, 3, 4, 5];
+    let soNguyenV = +prompt('Nhap so nguyen V: ');
+    for (let i = 0; i < soNguyenArr.length; i++) {
+        if (soNguyenArr[i] === soNguyenV) {
+            let index = soNguyenArr.indexOf(soNguyenV);
+            soNguyenArr.splice(index, 1);
+            i--;
+        }
     }
     document.write(soNguyenArr);
 </script>

@@ -10,14 +10,13 @@
 
 <script>
     let soNguyenArr = [];
-    for (let i = 0; i < 10; i++) {
+    let soLuong = 0;
+    for (let i = 0; i < 5; i++) {
         soNguyenArr[i] = +prompt("Nhập phần tử vị trí thứ: " + (i + 1));
         if (soNguyenArr[i] >= 10) {
-            document.write(" " + soNguyenArr[i]);
+            soLuong ++;
         }
-    }
-
-
+    }  document.write( soLuong );
 </script>
 </body>
 </html>
