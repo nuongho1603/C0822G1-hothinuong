@@ -7,18 +7,16 @@
 <body>
 <!--Bài 7: Viết hàm truyền vào 2 số nguyên bất kì, thực hiện đổi chỗ hai số nguyên đó.-->
 <script>
-    let temp="";
+    let temp = "";
     let number1 = +prompt('Nhap:');
     let number2 = +prompt('Nhap:');
-    function checkNumber(number1,number2) {
+    function checkNumber(number1, number2) {
         temp = number1;
         number1 = number2;
         number2 = temp;
-        return alert(+number1 +"," +number2);
+        return alert(+number1 + "," + number2);
     }
-    checkNumber(number1,number2);
-
-
+    checkNumber(number1, number2);
 </script>
 </body>
 </html>

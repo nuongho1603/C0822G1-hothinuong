@@ -10,11 +10,12 @@
 <script>
     let kyTuSo = ["1", "0", "2", "3", "4", "5", "6", "7", "8", "9"];
     function check(kyTu) {
-        for (let i=0;i<kyTuSo.length;i++) {
-            if(kyTu == kyTuSo[i]) {
+        for (let i = 0; i < kyTuSo.length; i++) {
+            if (kyTu == kyTuSo[i]) {
                 return true;
             }
-        }return false;
+        }
+        return false;
     }
     let kyTu = +prompt('Moi ban nhap ky tu:');
     document.write(check(kyTu));
