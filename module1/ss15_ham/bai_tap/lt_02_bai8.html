@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 8: Viết hàm truyền vào mảng số nguyên bất kỳ, sau đó đảo ngược mảng số nguyên đó.-->
+<script>
+    let soNguyen = [];
+    let size = +prompt("Nhập độ dài mảng: ");
+
+    for (let i = 0; i < size; i++) {
+        soNguyen[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+    }
+    function arr(soNguyen) {
+        soNguyen.reverse();
+    }
+    arr();
+    document.write(soNguyen.join(""));
+</script>
+</body>
+</html>

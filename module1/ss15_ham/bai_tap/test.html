@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numberArr = [];
+    let size = +prompt("Nhập độ dài mảng: ");
+
+    for (let i = 0; i < size; i++) {
+        numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+    }
+    for (let i = 0; i<numberArr.length; i++) {
+       if ( Math.sqrt(numberArr[i] ) === parseInt(Math.sqrt(numberArr[i]))) {
+           document.write(" " + numberArr[i]);
+       }
+    }
+
+
+
+</script>
+</body>
+</html>

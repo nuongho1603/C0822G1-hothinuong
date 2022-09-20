@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chuoiMoi = [];
+    let so = ["0", "1", "2", "3", "4", "5", "6","7", "8", "9"];
+    let kyTu = ["a", "s", "d", "f", "g", "h", "j", "k", "l", "q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "z", "x", "c", "v", "b", "n", "m"];
+    let kyTuHoa = ["A", "S", "D", "F", "G", "H", "J", "K", "L", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "Z", "X", "C", "V", "B", "N", "M"];
+    function checkString(str) {
+        for (let i = 0; i < str.length; i++) {
+            if (!so.includes(str[i]) && !kyTu.includes(str[i]) && !kyTuHoa.includes(str[i])) {
+                chuoiMoi.push(str[i]);
+            }
+        }
+        return chuoiMoi;
+    }
+    let str = prompt('Nhap chuoi:');
+    checkString(str);
+    document.write(chuoiMoi);
+</script>
+</body>
+</html>
