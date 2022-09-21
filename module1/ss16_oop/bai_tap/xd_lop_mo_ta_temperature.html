@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(doC) {
+            this.doC = doC;
+        }
+
+        setC(C) {
+            this.doC = doC;
+        }
+
+        getC() {
+            return this.doC;
+        }
+
+        getCtoF() {
+            return (this.doC * 9 / 5 + 32);
+        }
+
+        getCtoKenvin() {
+            return (this.doC + 273);
+        }
+    }
+
+    let temperature = new Temperature();
+    let doC = parseInt(prompt(" nhập nhiệt độ C:"));
+    temperature.setC(doC);
+    if (doC > -273) {
+        let C = temperature.getC();
+        let F = temperature.getCtoF();
+        let Kenvin = temperature.getCtoKenvin();
+        document.write(" nhiệt độ C là : " + C + " độ C " + " chuyển thành nhiệt độ F: " + F + " độ F " + " nhiệt độ Kenvin là : " + Kenvin + " độ K");
+    } else {
+        document.write("Nhiệt độ C không đúng");
+    }
+</script>
+</body>
+</html>

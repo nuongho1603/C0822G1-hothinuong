@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let hinhVuong = function (canh) {
+        this.canh = canh;
+        this.canh = function () {
+            return canh;
+        }
+    }
+    this.dienTich = function () {
+        return canh * canh;
+    };
+    let hinhVuong = new hinhVuong(2);
+    let canhHV = hinhVuong.canh;
+    let area = hinhVuong.dienTich();
+    alert(canhHV + area);
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas" width="400px" height="300px" style="border: 1px mediumvioletred "></canvas>
+<script>
+    class HinhChuNhat{
+        constructor(chieuDai,chieuRong) {
+            this.chieuDai= chieuDai;
+            this.chieuRong=chieuRong;
+        }
+        getChieuDai(){
+            return this.chieuDai;
+        }
+        getChieuRong(){
+            return this.chieuRong;
+        }
+        getChuVi(){
+            return (this.chieuDai+this.chieuRong)*2;
+        }
+        getDienTich(){
+            return this.chieuDai*this.chieuRong;
+        }
+        display(toaDoX,toaDoY){
+            let canvas = document.getElementById("canvas");
+            let ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(toaDoX,toaDoY,50,25);
+            ctx.fill();
+        }
+    }
+
+    let HCN =new HinhChuNhat(2,3);
+    document.write("chiều dài là: "+HCN.getChieuDai() +"<br>");
+    document.write("chiều rộng là: "+HCN.getChieuRong() +"<br>");
+    document.write("chu vi là: "+HCN.getChuVi() +"<br>");
+    document.write("diện tích là: "+HCN.getDienTich() +"<br>");
+    HCN.display(1,1);
+</script>
+</body>
+</html>
+</body>
+</html>
