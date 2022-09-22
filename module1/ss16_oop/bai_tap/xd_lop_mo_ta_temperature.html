@@ -10,24 +10,19 @@
         constructor(doC) {
             this.doC = doC;
         }
-
         setC(C) {
             this.doC = doC;
         }
-
         getC() {
             return this.doC;
         }
-
         getCtoF() {
             return (this.doC * 9 / 5 + 32);
         }
-
         getCtoKenvin() {
             return (this.doC + 273);
         }
     }
-
     let temperature = new Temperature();
     let doC = parseInt(prompt(" nhập nhiệt độ C:"));
     temperature.setC(doC);

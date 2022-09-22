@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor() {
+            this.khoiLuong = 10;
+        }
+
+        getKhoiLuong() {
+            return this.khoiLuong;
+        }
+
+        setKhoiLuong(khoiLuong) {
+            this.khoiLuong = khoiLuong;
+        }
+
+        isEmpty() {
+            if (this.khoiLuong == 0) {
+                return true;
+            }
+            return false;
+        }
+
+        giamKhoiLuong() {
+            this.khoiLuong--;
+
+        }
+    }
+
+    class Human {
+        constructor(ten, tuoi, gioiTinh) {
+            this.ten = ten;
+            this.tuoi = tuoi;
+            this.gioiTinh = gioiTinh;
+        }
+
+        isMale() {
+            if (this.gioiTinh === "nam") {
+                return true;
+            }
+            return false;
+        }
+
+        setGioiTinh(gioiTinh) {
+            this.gioiTinh = gioiTinh;
+        }
+
+        getGioiTinh() {
+            return this.gioiTinh;
+        }
+
+        setCanNang(canNang) {
+            this.CanNang = canNang;
+        }
+
+        setKhoiLuong(khoiLuong) {
+            this.KhoiLuong = khoiLuong;
+        }
+
+        say(message) {
+            console.log(message);
+        }
+
+        eat(apple) {
+            apple.giamKhoiLuong();
+            this.weight++;
+        }
+
+        checkApple(apple) {
+            if (apple.getKhoiLuong() > 0) {
+                return true;
+            }
+            return false;
+        }
+    }
+
+    document.write("Adam ăn táo" + "<br>");
+    let apple1 = new Apple(10);
+    let adam = new Human("adam", 19, "nam");
+    let eva =  new Human("eva",20,"nu");
+   adam.say("hello eva");
+   eva.say("An tao khong?");
+   adam.eat(apple1);
+   console.log(apple1);
+   let check = true;
+    for (let i = 0; i < 5 ; i++) {
+        if (check == true) {
+            eva.eat(apple1);
+            document.write("Can nang qua tao:" + apple1.getKhoiLuong()+"can nang Eva:" +eva.getWeight()  );
+        }
+        if(check == false) {
+            adam.eat(apple1);
+            document.write("Can nang qua tao" + apple1.getKhoiLuong());
+        }
+    }
+
+
+</script>
+</body>
+</html>
