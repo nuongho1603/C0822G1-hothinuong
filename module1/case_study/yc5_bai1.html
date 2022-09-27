@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Viết hàm tính tổng các số chẵn trong ma trận có kích thước m*n. Với m, n là các số nhập từ bàn phím-->
+<script>
+
+    function tinhTong() {
+        let sum=0;
+        let array = [];
+        let m = +prompt('Nhap kich thuoc ma tran m:');
+        let n = +prompt('Nhap kich thuoc ma tran n:');
+        for (let i = 0; i < m; i++) {
+            array[i] = [];
+            for (let j = 0; j < n; j++) {
+                array [i][j] = +prompt("Nhap phan tu:");
+            }
+        }
+        for(let i=0;i<array.length;i++) {
+            for(let j=0;j<array[i].length;j++) {
+                if(array[i][j]%2 ==0){
+                    sum += array[i][j];
+                }
+            }
+        }document.write(sum);
+    }
+
+    tinhTong();
+
+    // document.write(tinhTong(sum));
+
+
+</script>
+</body>
+</html>

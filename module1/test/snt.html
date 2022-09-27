@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkNumber(number) {
+        if(number <2 ) {
+            return "Khong phai SNT dau nhee";
+        }
+        for (let i = 2; i <= number - 1; i++) {
+            if ( number % i === 0) {
+                return "Khong phai SNT dau nhee";
+            }
+        }
+        return "Day la SNT nha ban";
+    }
+
+    let num = +prompt('Hay nhap so ban muon check');
+    document.write(checkNumber(num));
+</script>
+</body>
+</html>

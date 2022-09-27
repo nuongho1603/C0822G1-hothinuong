@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    function goiMon() {
+        let soLuong;
+        let tien = 0;
+        let tongTien = 0;
+        let number;
+        do {
+            number = +prompt("Nhập thục đơn muốn chọn")
+            switch (number) {
+                case 1:
+                    soLuong = +prompt('Giá của 1 ly cafe là 5000đ');
+                    tien = soLuong * 5000;
+                    alert(tien);
+                    tongTien += tien
+                    break;
+                case 2:
+                    soLuong = +prompt('Giá của 1 ly cam vắt là 6000đ');
+                    tien = soLuong * 6000;
+                    alert(tien);
+                    tongTien += tien
+                    break;
+                case 3:
+                    soLuong = +prompt('Giá của 1 ly nước ép cà rốt là 7000đ');
+                    tien = soLuong * 7000;
+                    alert(tien);
+                    tongTien += tien
+                    break;
+                case 4:
+                    soLuong = +prompt('Giá của 1 ly nước ép cà chua là 8000đ');
+                    tien = soLuong * 8000;
+                    alert(tien);
+                    tongTien += tien
+                    break;
+                case 5:
+                    soLuong = +prompt('Giá của 1 ly nước lọc là 9000đ');
+                    tien = soLuong * 9000;
+                    alert(tien);
+                    tongTien += tien
+                    break;
+                case 6:
+                    soLuong = +prompt('Giá của 1 ly nước dừa là 10000đ');
+                    tien = soLuong * 10000;
+                    alert(tien);
+                    tongTien += tien
+                    break;
+                case 7:
+                    alert("Tổng số tiền phải trả là: " + tongTien);
+                    break;
+                default:
+                    alert("Nhập lại số trong thực đơn");
+            }
+        } while (number !== 7);
+    } document.write(goiMon());
+
+</script>
+</body>
+</html>

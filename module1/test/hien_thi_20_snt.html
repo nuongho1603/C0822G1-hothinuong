@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="result"></div>
+<script>
+
+    let numbers = +prompt('Moi ban nhap so luong giatri');
+    let n = 2;
+    let dem = 0;
+    let text = " ";
+    while (dem < numbers) {
+        let count = 0;
+        for (let i = 2; i < n; i++) {
+            if (n % i === 0) {
+                count++;
+            }
+        }
+        if (count === 0) {
+            text = text + n + " ";
+            dem++;
+        }  n++;
+    }
+    document.getElementById("result").innerHTML=text;
+
+</script>
+</body>
+</html>

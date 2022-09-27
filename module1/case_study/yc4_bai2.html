@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let s = "cabca";
+    let arr=[s.charAt(0)];
+    for (let  i = 1; i< s.length; i++) {
+        if(!arr.includes(s.charAt(i))) {
+            arr.push(s.charAt(i));
+        }
+    }
+    document.write(arr.length);
+</script>
+</body>
+</html>

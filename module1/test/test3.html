@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numberArr = [];
+    let size = +prompt("Nhập độ dài mảng: ");
+    let dem = 0;
+    let count = 0;
+    for (let i = 0; i < size; i++) {
+        numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+    }
+    for (let i = 0; i < numberArr.length; i++) {
+        if (numberArr[i] % 2 == 0) {
+            dem++;
+        } else {
+            count++;
+        };
+    }
+    if (dem == count) {
+        alert("ok");
+    } else {
+        alert("NO");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = [5, 2, 5];
+    let b = [6, 3, 4];
+    let max = a[0] / b[0];
+    let index = 0;
+    for (let j = 1; j < b.length; j++) {
+        if (max < (a[j] / b[j])) {
+            max = (a[j] / b[j]);
+            index = j;
+        }
+
+    }
+    document.write("Phan so lon nhat:" + max + " Vi tri thu " + index);
+
+</script>
+</body>
+</html>

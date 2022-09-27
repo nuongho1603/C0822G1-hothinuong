@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 1: Viết một hàm chuẩn hóa xâu ký tự: biến đổi xâu ký tự thành xâu sao cho trong xâu
+không có 2 dấu cách liền nhau và bắt đầu mỗi từ phải in hoa.
+Ví dụ tRuong    TaN   HAI => Truong Tan Hai.-->
+<!--Và một hàm tìm từ dài nhất trong 1 xâu ký tự.-->
+<!--Hàm main sử dụng các hàm này để nhập xâu ký tự từ bàn phím, -->
+<!--in ra xâu trước và sau khi chuẩn hóa, 1 từ dài nhất trong xâu đó.-->
+<script>
+    function check(xauKyTu) {
+        let xau = xauKyTu.toLowerCase().split(' ');
+        for (let i = 0; i < xau.length; i++) {
+
+            xau[i] = xau[i].charAt(0).toUpperCase() + xau[i].substring(1);
+        }
+        return xau.join(' ');
+    }
+
+    // document.write(check("truoNg tan hAI") + "<br>");
+
+    function tuDaiNhat(xauKyTu) {
+        let index = 0;
+        let tu = xauKyTu.split(' ');
+        let max = tu[0].length;
+        for (let i = 0; i < tu.length; i++) {
+            if (tu[i].length > max) {
+                max = tu[i].length;
+                index = i;
+            }
+
+        }
+        return ("Tu dai nhat: " + tu[index]);
+    }
+
+    // document.write(chuanHoa("Truong Tan Hai"));
+    function main(xauKyTu) {
+        document.write("Xau truoc khi chuan hoa:" + xauKyTu + "<br>");
+        let result = check(xauKyTu);
+        document.write("Xau sau khi chuan hoa:" + result + "<br>");
+        let tuDai = tuDaiNhat(result);
+        document.write( tuDai);
+    }
+
+    let xau1 = ("truONg tAn hAI");
+    main(xau1);
+</script>
+</body>
+</html>

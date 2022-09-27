@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 4: Viết một chương trình nhập một số từ bàn phím và in ra màn hình bằng chữ.-->
+<!--Ví dụ 1234, kết quả in ra màn hình là một hai ba bốn.-->
+<script>
+    let text = ["mot" , "hai","ba","bon " ,"nam"];
+    let numbers = [1,2,3,4,5];
+    let number = +prompt('Nhap so');
+    for(let i=0;i<text.length;i++) {
+            if(number === numbers[i])  {
+                document.write(text[i]);
+            }
+    }
+</script>
+</body>
+</html>
