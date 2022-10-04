@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function maTran(array){
+        let sum =0;
+        for (let i = 0; i< array.length ; i++) {
+            for(let j =0;j<array[i].length;j++){
+                if( i== j || j == array[i].length -1 -i){
+                    sum += array[i][j];
+                }
+            }
+        } return sum;
+    }
+    let arr = [
+        [1, 5, 2, 2],
+        [2, 1, 5, 3],
+        [2, 3, 2, 5],
+        [4, 3, 3, 1]];m
+    alert(maTran(arr));
+</script>
+</body>
+</html>

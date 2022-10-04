@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+    let arr = [1, 5, 6, 13, 9, 12, 8, 0, 5, 1];
+    function fibonaci(array) {
+        let fibonaci;
+        let fibonaci1 = [];
+        let fibonaci2 = [];
+        let number1 = 0;
+        let number2 = 1;
+        for (let i = 0; i <= 20; i++) {
+            fibonaci = number2 + number1;
+            fibonaci1.push(fibonaci);
+            number1 = number2;
+            number2 = fibonaci;
+        }
+        for (let i = 0; i < array.length; i++) {
+            for (let j = 0; j < fibonaci1.length; j++) {
+                if (array[i] === fibonaci1[j]) {
+                    fibonaci2.push(array[i]);
+                }
+            }
+        }
+        fibonaci2.sort(function (a, b) {
+                return a - b;
+            }
+        )
+        return fibonaci2;
+    }
+
+    document.write(fibonaci(arr));
+</script>
+</html>

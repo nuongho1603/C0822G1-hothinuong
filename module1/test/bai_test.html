@@ -6,24 +6,24 @@
 </head>
 <body>
 <script>
-    let numberArr = [];
     let size = +prompt("Nhập độ dài mảng: ");
-    let tong = 0;
-    let count = 0;
+    let array = [];
     for (let i = 0; i < size; i++) {
-        numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+        array[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
     }
-    document.write("Mang : " + numberArr);
-    for (let i = 0; i < numberArr.length; i++) {
-        tong += i;
+    document.write("mảng: " + array);
+    let sum=0;
+    let count = 0;
+    for (let i=0;i<array.length;i++) {
+        sum += i;
     }
-    let trungBinh = tong / numberArr.length;
-    for (let i = 0; i < numberArr.length; i++) {
-        if (numberArr[i] == trungBinh) {
-            count += 1;
+    let   tb = sum / array.length;
+    for (let i=0;i<array.length;i++) {
+        if (array[i] == tb) {
+            count+=1;
         }
     }
-    document.write("So luong so tb bang: " + count);
+    document.write("số lượng số bằng số tb là: " +count);
 
 
 </script>

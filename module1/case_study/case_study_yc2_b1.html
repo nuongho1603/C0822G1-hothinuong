@@ -17,10 +17,9 @@ Với các thông số giả sử như sau (không theo luật lương, chỉ l�
     let luongRong = 0;
     if (luong < 7000000) {
         thue = (luong / 100) * 5;
-
-    } else if (luong < 15000000 && luong >= 7000000) {
+    } else if (luong < 15000000 ) {
         thue = (luong / 100) * 10;
-    } else if (luong >= 15000000) {
+    } else{
         thue = (luong / 100) * 20;
     }
     luongRong = luong - thue;

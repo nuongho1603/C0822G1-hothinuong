@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    let numberArr = [0, 1, 2,3, 2, 1, 0];
+    let check = "ok";
+    for (let i = 0; i < parseInt(numberArr.length / 2); i++) {
+        if (numberArr[i] !== (numberArr[numberArr.length - 1 - i])) {
+            check = "no";
+            break;
+        }
+    }
+    alert(check);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Câu 3: Viết hàm có tham số truyền vào là một mảng ,tìm các số fibonaci có trong-->
+<!--mảng(số này đã làm bài tập ở jame). Hàm trả về 1 mảng số fibonaci được tìm thấy-->
+<!--trong mảng ( Yêu cầu sắp xếp tăng dần).-->
+<!--Gợi ý đây là dãy số fibonaci: 0,1,1,2,3,5,8,13,21,..-->
+<script>
+
+    function checkFibonacci(array) {
+        array[0] = 0;
+        array[1] = 1;
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] == array[i - 1] + array[i - 2]) {
+                array[i - 1] = array[i - 2];
+                array[i - 2] = array[i];
+                b.includes(array.length);
+                b.push(array[i]);
+            }
+        }
+        return a = sort(b);
+    }
+
+
+    let arr1 = [1, 5, 6, 13, 9, 12, 8, 0, 5, 1];
+    alert(checkFibonacci(arr1));
+</script>
+</body>
+</html>

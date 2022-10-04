@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="maTK" placeholder="nhập mã tk "><br>
+<input type="text" id="tenChuTK" placeholder="nhập tên chủ tk "><br>
+<input type="text" id="tenNganHang" placeholder="nhập tên ngân hàng"><br>
+<input type="number" id="tongTienTK" placeholder="TỔNG tiền tk "><br>
+<button onclick="themMoiTK()">Them TK </button>
+<p id="display"></p>
+<script>
+    class NganHang{
+        constructor(maTK,tenChuTK,tenNganHang,tongTienTK) {
+            this.maTK=maTK;
+            this.tenChuTK=tenChuTK;
+            this.tenNganHang=tenNganHang;
+            this.tongTienTK=tongTienTK;
+        }
+        setmaTK(maTK){
+            this.maTK=maTK;
+        }
+        settenChuTK(tenChuTK){
+            this.tenChuTK=tenChuTK;
+        }
+        set(tenNganHang){
+            this.tenNganHang=tenNganHang;
+        }
+        set(tongTienTK){
+            this.tongTienTK=tongTienTK;
+        }
+        getmaTK(){
+            return this.maTK;
+        }
+        gettenChuTK(){
+            return this.tenChuTK;
+        }
+        gettenNganHang(){
+            return this.tenNganHang;
+        }
+        gettongTienTK(){
+            return this.tongTienTK;
+        }
+        toString(){
+
+        }
+
+    }
+    // hiện thị
+    let danhSachTKNganHang = [];
+    // let nganHang1 = new NganHang(1,"45986","ASH","aGIBANK","4555");
+    // let nganHang2 = new NganHang(2,"45986","DEF","aGIBANK","4555");
+    // let nganHang3 = new NganHang(3,"45986","MNB","aGIBANK","4555");
+    // danhSachTKNganHang.push(nganHang1,nganHang2,nganHang3);
+    // display(danhSachTKNganHang);
+    function themMoiTK() {
+        let maTK = document.getElementById("maTK").value;
+
+        let tenChuTK = document.getElementById("tenChuTK").value;
+        let tenNganHang = document.getElementById("tenNganHang").value;
+        let tongTienTK = document.getElementById("tongTienTK").value;
+        let nguoi = new NganHang(maTK,tenChuTK,tenNganHang,tongTienTK);
+        danhSachTKNganHang.push(nguoi);
+        document.getElementById("maTK").value="";
+        document.getElementById("tenChuTK").value="";
+        document.getElementById("tenNganHang").value="";
+        document.getElementById("tongTienTK").value="";
+        display(danhSachTKNganHang);
+    }
+    function deleteNguoi(maTK) {
+        let conf= confirm("bạn có muốn xoá sinh viên tên : ",danhSachTKNganHang[maTK] + "???");
+        if (conf){
+            danhSachTKNganHang.splice(maTK,1);
+        }
+        display(danhSachTKNganHang);
+
+    }
+    function display(list) {
+        let data = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>STT</th>\n' +
+            '        <th>Ma TK</th>\n' +
+            '        <th>Ten chu TK</th>\n' +
+            '        <th>Ten tk ngan hang</th>\n' +
+            '        <th>Tong tien ngan hang</th>\n' +
+            '        <th>Sua</th>\n' +
+            '        <th>Xoa</th>\n' +
+            '    </tr>';
+        for (let i = 0; i <list.length; i++) {
+            data +=' <tr>\n' +
+                '        <td>'+(i+1)+'</td>\n' +
+                '        <td>'+list[i].getmaTK()+'</td>\n' +
+                '        <td>'+list[i].gettenChuTK()+'</td>\n' +
+                '        <td>'+list[i].gettenNganHang()+'</td>\n' +
+                '        <td>'+list[i].gettongTienTK()+'</td>\n' +
+                '        <td><input type="button"  value="edit" onclick=""></td>\n' +
+                '        <td><input type="button"  value="delete" onclick="deleteNguoi('+i+')"></td>\n' +
+                '    </tr>';
+        }
+        data +='</table>';
+        document.getElementById("display").innerHTML=data;
+    }
+</script>
+</body>
+</html>

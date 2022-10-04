@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let arr = [];
+    // let arr1 = [];
+    // let number1 = +prompt("nhap so thu nhat");
+    // let number2 = +prompt("nhap so thu hai");
+    // let arr=[];
+    // let arr1=[];
+    let sum = 0;
+    let sum1 = 0;
+
+    function kiemTraSo(number1, number2) {
+        for (let i = 1; i < number1; i++) {
+            if (number1 % i == 0) {
+                sum += i;
+            }
+        }
+        for (let i = 1; i < number2; i++) {
+            if (number2 % i == 0) {
+                sum1 += i;
+            }
+        } return sum === number2 && sum1 === number1;
+    }
+   alert(kiemTraSo(123,456));
+
+    //
+    //  {
+    //     if () {
+    //         return true;
+    //     }
+    //     return false;
+    // }
+    //
+    // alert(kiemTraSo(number1, number2));
+
+
+</script>
+</body>
+</html>

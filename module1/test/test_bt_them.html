@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function tinhTongUoc(numbers) {
+        let sum;
+        let arr = [];
+        for (let i = 0; i < numbers.length; i++) {
+            sum = 0;
+            for (let j = 1; j <= numbers[i]; j++) {
+                if (numbers[i] % j == 0) {
+                    sum += j;
+                }
+            }
+            arr.push(sum);
+        }
+        return arr;
+    }
+
+
+    // let numberArr = [2, 4, 7];
+    let numberArr = [];
+    let size = +prompt("Nhập độ dài mảng: ");
+    for (let i = 0; i < size; i++) {
+        numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+    }
+    alert(tinhTongUoc(numberArr));
+</script>
+</body>
+</html>

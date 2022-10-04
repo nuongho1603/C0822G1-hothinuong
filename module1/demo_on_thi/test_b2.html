@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Câu 2: Viết hàm có tham số truyền vào là một chuỗi các ký tự.Hàm thực hiện tạo ra-->
+<!--một cụm từ viết tắt-->
+<!-- - Nếu chuỗi có nhiều hơn hoặc bằng 2 từ trở lên thì hàm sẽ trả về 1 cụm từ viết tắt-->
+<!--là lấy các ký tự đầu tiên của từng từ và đổi sang in hoa.-->
+<!--Ví dụ:   object     Oriented     programming => kết quả trả về :OOP-->
+<!-- - Nếu Chuỗi chỉ có duy nhất 1 từ thì kết quả trả về là 1 thông báo "Chuỗi chỉ có 1-->
+<!--từ nên không cần viết tắc"-->
+<!-- -     Ví du:     ObjectOriented => chuỗi này chỉ được tính chỉ có 1 từ-->
+<script>
+    function checkString(str) {
+        let string = str.split(' ');
+        for (let i = 0; i < string.length; i++) {
+            if (string.length == 1) {
+                return "Chuỗi chỉ có 1 từ nên không cần viết tắc";
+            } else {
+                string[i] = string[i].charAt(0).toUpperCase();
+            }
+        }
+        return string.join('');
+    }
+
+    let kyTu1 = prompt("Nhap mot chuoi ky tu ban muon check", '');
+    document.write(checkString(kyTu1));
+</script>
+</body>
+</html>

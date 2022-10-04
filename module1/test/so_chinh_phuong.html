@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkSCP(number) {
+        let sum = 0;
+        for (let i = 0; i < number.length; i++) {
+            if (Math.sqrt(number[i]) === parseInt(Math.sqrt(number[i]))) {
+                sum += number[i];
+
+            }
+        }
+        return sum;
+    }
+
+
+    let num = [];
+    let size = +prompt("Nhập độ dài mảng: ");
+
+    for (let i = 0; i < size; i++) {
+        num[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+        document.write(num[i] + ",");
+    }
+    // let arr = [1, 2, 3, 4, 5];
+
+    document.write("Tong SCP trong mảng: " + checkSCP(num));
+
+</script>
+</body>
+</html>
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>Title</title>-->
+<!--</head>-->
+<!--<body>-->
+
+<!--</body>-->
+<!--<script>-->
+<!--    let nhapSo = +prompt("Nhập số phần tử có trong mảng");-->
+<!--    let array = [];-->
+<!--    for (let i = 0; i < nhapSo; i++) {-->
+<!--        array[i] = +prompt("Nhập các phần tử ở trong mảng");-->
+<!--    }-->
+<!--    document.write(array + "<br>");-->
+
+<!--    function kiemTraSoChinhPhuong(number) {-->
+<!--        let tich = 0;-->
+<!--        let a = 1;-->
+<!--        while (tich <= number) {-->
+<!--            if (tich === number) {-->
+<!--                return true;-->
+<!--            }-->
+<!--            tich = a * a;-->
+<!--            a++;-->
+<!--        }-->
+<!--    }-->
+
+<!--    let tong = 0;-->
+<!--    for (let i = 0; i < array.length; i++) {-->
+<!--        if (kiemTraSoChinhPhuong(array[i])) {-->
+<!--            tong += array[i];-->
+<!--        }-->
+<!--    }-->
+<!--    document.write("Tổng của các số chính phương trong mang là: " + tong);-->
+<!--</script>-->
+<!--</html>-->

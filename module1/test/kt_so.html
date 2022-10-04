@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkArray(array) {
+        for(let i = 0;i< array.length;i++) {
+            if( isNaN(array[i])){
+                return false;
+            }
+        }return true;
+        }
+    let numberArr = [];
+    let size = +prompt("Nhập độ dài mảng: ");
+    for (let i = 0; i < size; i++) {
+        numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1)); }
+    alert(checkArray(numberArr))
+</script>
+</body>
+</html>

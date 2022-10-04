@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function canhTamGiac(x, y, z) {
+        if ((x * x + y * y == z * z) || (z * z + y * y == x * x) || (x * x + z * z == y * y) ) {
+            return "La 3 canh tam giac vuong";
+        } else if (x + y == z || x < 0 || y < 0 || z < 0 || x + z == y ||z + y == x ) {
+            return "Khong phai 3 canh tam giac";
+        } else {
+            return "Chi la 3 canh tam giac cua 1 tam giac";
+        }
+    }
+
+    let x = +prompt("Nhap canh thu nhat: ");
+    document.write("Canh thu nhat = " + x);
+    let y = +prompt("Nhap canh thu  hai: ");
+    document.write("Canh thu hai = " + y);
+    let z = +prompt("Nhap canh thu ba: ");
+    document.write("Canh thu ba = " + z);
+    // document.write(canhTamGiac(4,12,10));
+
+    document.write("<br>"+canhTamGiac( x, y, z));
+</script>
+</body>
+</html>

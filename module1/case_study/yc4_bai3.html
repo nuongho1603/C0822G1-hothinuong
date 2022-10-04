@@ -8,14 +8,12 @@
 <script>
     function checkString(s1,s2) {
         let arr=[];
-        let dem=0;
         let arr1=s1.split("");
         let arr2=s2.split("");
         for (let i = 0; i < arr1.length; i++) {
             for (let j = 0; j < arr2.length; j++) {
                 if (arr1[i] == arr2[j]) {
                     arr.push(arr1[i]);
-                    dem++;
                     arr1.splice(i,1);
                     arr2.splice(j,1);
                     j--;
@@ -24,7 +22,7 @@
                 }
             }
         }
-        return (arr+ "<br>" + "Co " +dem +" phan tu chung");
+        return (arr+ "<br>" + "Co " +arr.length +" phan tu chung");
     }
 
     let s2="aabcc";

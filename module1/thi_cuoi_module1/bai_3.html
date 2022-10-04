@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Quản lí sách </h1>
+<input type="number" id="maSach" placeholder=" Ma so sach "><br>
+<input type="text" id="tenSach" placeholder="Ten sach "><br>
+<input type="number" id="namXuatBan" placeholder="Nam xuat ban"><br>
+<input type="number" id="soQuyen" placeholder="So quyen"><br>
+<input type="text" id="tinhTrang" placeholder="Tinh trang muon "><br>
+
+<p id="display"></p>
+<script>
+
+    class Sach{
+        constructor(maSach,tenSach,namXuatBan,soQuyen,tinhTrang) {
+            this.maSach=maSach;
+            this.tenSach=tenSach;
+            this.namXuatBan=namXuatBan;
+            this.soQuyen=soQuyen;
+            this.tinhTrang=tinhTrang;
+        }
+        setMaSach(maSach){
+            this.maSach=maSach;
+        }
+        setTenSach(tenSach){
+            this.tenSach=tenSach;
+        }
+        setNamXuatBan(namXuatBan){
+            this.namXuatBan=namXuatBan;
+        }
+        setSoQuyen(soQuyen){
+            this.SoQuyen=soQuyen;
+        }
+        set(tinhTrang){
+            this.tinhTrang=tinhTrang;
+        }
+        getMaSach(){
+            return this.maSach;
+        }
+        getTenSach(){
+            return this.tenSach;
+        }
+        getNamXuatBan(){
+            return this.namXuatBan;
+        }
+        getSoQuyen(){
+            return this.soQuyen;
+        }
+        getTinhTrang(){
+            return this.tinhTrang;
+        }
+
+
+    }
+
+    let danhSachSach = [];
+    let sach1 = new Sach("45986","Toan","2000","3","True");
+    let sach2 = new Sach("45986","Van","1998","4","False");
+    let sach3 = new Sach("45986","Tieng Anh","1999","5","False");
+    danhSachSach.push(sach1,sach2,sach3);
+    display(danhSachSach);
+    function themMoiSach() {
+
+        let maSach = document.getElementById("maSach").value;
+
+        let tenSach = document.getElementById("tenSach").value;
+        let namXuatBan = document.getElementById("namXuatBan").value;
+        let soQuyen = document.getElementById("soQuyen").value;
+        let tinhTrang = document.getElementById("tinhTrang").value;
+        let sach = new Sach(maSach,tenSach,namXuatBan,soQuyen,tinhTrang);
+        danhSachSach.push(sach);
+        document.getElementById("maSach").value="";
+        document.getElementById("tenSach").value="";
+        document.getElementById("namXuatBan").value="";
+        document.getElementById("soQuyen").value="";
+        document.getElementById("tinhTrang").value="";
+        display(danhSachSach);
+    }
+    function deleteSach(maSach) {
+        let conf= confirm("bạn có muốn xoá sinh viên tên : ",danhSachSach[maSach] + "???");
+        if (conf){
+            danhSachSach.splice(maSach,1);
+        }
+        display(danhSachSach);
+
+    }
+    function display(list) {
+        let data = '<table border="1" style="border-collapse: collapse">\n' +
+            '    <tr>\n' +
+            '        <th>Ma sach</th>\n' +
+            '        <th>Ten sach</th>\n' +
+            '        <th>Nam xuat ban</th>\n' +
+            '        <th>So quyen</th>\n' +
+            '        <th>Tinh Trang</th>\n' +
+            '        <th>Sua</th>\n' +
+            '        <th>Xoa</th>\n' +
+            '    </tr>';
+        for (let i = 0; i <list.length; i++) {
+            data +=' <tr>\n' +
+                '        <td>'+list[i].getMaSach()+'</td>\n' +
+                '        <td>'+list[i].getTenSach()+'</td>\n' +
+                '        <td>'+list[i].getNamXuatBan()+'</td>\n' +
+                '        <td>'+list[i].getSoQuyen()+'</td>\n' +
+                '        <td>'+list[i].getTinhTrang()+'</td>\n' +
+                '        <td><input type="button"  value="edit" onclick=""></td>\n' +
+                '        <td><input type="button"  value="delete" onclick="deleteSach('+i+')"></td>\n' +
+                '    </tr>';
+        }
+        data +='</table>';
+        document.getElementById("display").innerHTML=data;
+    }
+</script>
+<button onclick="themSachDaCo()">Them sach da co</button>
+<button onclick="themMoiSach()">Them moi sach</button>
+<button onclick="muonSach()">Muon Sach</button>
+<button onclick="hienThiSach()">Hien thi sach nhieu nhat</button>
+</body>
+</html>

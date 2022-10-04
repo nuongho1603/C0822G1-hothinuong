@@ -6,25 +6,22 @@
 </head>
 <body>
 <script>
-    let numberArr = [];
-    let s = [];
-    let size = +prompt("Nhập độ dài mảng: ");
+    function kiemTraMang(so) {
+        // let arr = [];
+        for (let i = 1; i < so.length; i++) {
+            if (so[i] % so[i-1] !== 0) {
+                return false;
+                }
+            } return true;
+    }
 
+    // let so1 = [5, 5, 15];
+    let numberArr = [];
+    let size = +prompt("Nhập độ dài mảng: ");
     for (let i = 0; i < size; i++) {
         numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
     }
-    for (let i = 0; i < numberArr.length; i++) {
-        if (Math.sqrt(numberArr[i]) === parseInt(Math.sqrt(numberArr[i]))) {
-            // document.write(" " + numberArr[i]);
-            s.push(numberArr[i]);
-        }
-    }
-    s.sort(function (a, b) {
-        return a - b;
-    })
-    document.write(s);
-
-
+alert(kiemTraMang(numberArr));
 </script>
 </body>
 </html>

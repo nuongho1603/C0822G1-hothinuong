@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--// Câu 1: Nhập từ bàn phím mảng số nguyên gồm n phần tử (n<=50). Hiển thị ra màn-->
+<!--// hình danh sách các phần tử của mảng, hiện thị giá trị trung bình của các phần tử chia-->
+<!--// hết cho 5 ở vị trí chia hết cho 3 ( phần tử có index chia hết cho 3)-->
+<!--// Ví dụ: [15,2,3,5,10,15,7,8,9,10]. Kết quả sau khi thực hiện là: (15+5+10)/3) = 10-->
+<script>
+
+    let arr=[];
+    // let size=+prompt("Nhap do dai cua mang muon check:");
+    for (let i = 0; i < 5; i++) {
+        arr[i] = +prompt("Moi ban nhap vi tri thu:" + (i+1));
+    }
+    let sum = 0;
+    let trungbinh;
+    let dem = 0;
+    for (let i = 0; i < arr.length; i += 3) {
+        if (arr[i] % 5 == 0) {
+            sum += arr[i];
+            dem++;
+        }
+    }
+    trungbinh = sum / dem;
+    document.write("Mảng mà bạn muốn check: " +arr +"<br>"+ " Giá trị trung bình chia het cho 5 ở vị trí chia hết cho 3 = " + trungbinh);
+
+</script>
+</body>
+</html>

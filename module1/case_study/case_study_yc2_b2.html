@@ -8,12 +8,25 @@
 <!--Bài 2: Viết chương trình kiểm tra một ký tự trong bảng chữ cái tiếng anh là nguyên âm hay phụ âm. Ký tự là bất kỳ được nhập từ bàn phím. -->
 <!--Các ký tự nguyên âm bao gồm: 'o', 'u', 'i', 'a', 'e' hoặc 'O', 'U', 'I', 'A', 'E'-->
 <script>
-    let kyTu = prompt('Moi ban nhap ky tu:');
-    if((kyTu == "o") || (kyTu =="u") || (kyTu == "i") || (kyTu =="a") || (kyTu == "e") || (kyTu == "O") || (kyTu == "U") || (kyTu == "I") ||(kyTu == "A") ||(kyTu == "e")) {
-        alert('Ky tu ban nhap vao la so nguyen am.');
-    } else {
-        alert('Ky tu ban nhap vao la phu am.');
+    function check(str) {
+        for (let i = 0; i < arr.length; i++) {
+            if (str == arr[i]) {
+                return "Ky tu ban nhap la nguyen am";
+            }
+        }
+        return "Ky tu ban nhap la phu am";
     }
+
+    let kyTu = prompt('Moi ban nhap ky tu:');
+    let arr = ["o", "u", "i", "a", "e", "O", "U", "I", "A", "E"];
+    alert(check(kyTu));
+
+
+    // if((kyTu == "o") || (kyTu =="u") || (kyTu == "i") || (kyTu =="a") || (kyTu == "e") || (kyTu == "O") || (kyTu == "U") || (kyTu == "I") ||(kyTu == "A") ||(kyTu == "e")) {
+    //     alert('Ky tu ban nhap vao la so nguyen am.');
+    // } else {
+    //     alert('Ky tu ban nhap vao la phu am.');
+    // }
 </script>
 </body>
 </html>

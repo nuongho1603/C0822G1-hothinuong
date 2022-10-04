@@ -6,13 +6,13 @@
 </head>
 <body>
 <script>
-    let numberArr = [];
-    let size = +prompt("Nhập độ dài mảng: ");
+    let numberArr = [1,2,5,6];
+    // let size = +prompt("Nhập độ dài mảng: ");
     let dem = 0;
     let count = 0;
-    for (let i = 0; i < size; i++) {
-        numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
-    }
+    // for (let i = 0; i < size; i++) {
+    //     numberArr[i] = +prompt("Nhập phần tử vị trí thứ " + (i + 1));
+    // }
     for (let i = 0; i < numberArr.length; i++) {
         if (numberArr[i] % 2 == 0) {
             dem++;

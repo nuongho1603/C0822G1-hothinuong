@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let size = +prompt("Nhap do dai mang:");
+    let arr = [];
+    let sum=0;
+    for (let i = 0; i < size; i++) {
+        arr[i] = +prompt("Nhap phan tu vi tri thu " + (i + 1));
+    }
+    for(let i=1;i<arr.length;i+=2) {
+        if(arr[i] % 2==0 ) {
+            sum +=arr[i];
+        }
+    } alert(sum);
+</script>
+</body>
+</html>
