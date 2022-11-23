@@ -20,58 +20,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="803887aa-67ed-4b50-b97f-20641ddca6cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/demo_sp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/test_b1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/test_b2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/test_b3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/demosp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/so_nhi_phan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/tl/ct_bong_den.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/tl/fibonaci_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/tl/quiz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/tl/test_fibonacci.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_on_thi/tl/tl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/kt_so.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ma_tran.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/so_chinh_phuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/so_nhi_phan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/sum_so_chan_vtle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_bt_them.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_bt_them_b2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai_3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/module1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/module1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/case_study_yc2_b1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/case_study_yc2_b1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/case_study_yc2_b2.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/case_study_yc2_b2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yc3_bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yc3_bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yc3_bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yc3_bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yc3_bai5.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yc3_bai5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yc4_bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_on_thi/tl/yc4_bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study/yc4_bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/yc4_bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap_vong_lap_02/luyen_tap_vong_lap_02_bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_cau_truc_lap2/bai_tap/luyen_tap_vong_lap_02/luyen_tap_vong_lap_02_bai1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_mang_01/lt_mang_01_b6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss13_mang_2/bai_tap/luyen_tap_mang_01/lt_mang_01_b6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bai_test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/bai_test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/giao_dien_sp.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_on_thi/giao_dien_sp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/snt.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/snt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test3.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/test3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test4.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/test4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test5.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/casestudybai4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/giai_thuat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/Thuc_hanh_mld3/practice_mld3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/exercise/exercise1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/exercise/exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/exercise/link1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt4.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_on_thi/tl/fibonaci_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_on_thi/tl/fibonaci_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/hien_thi_20_snt.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/hien_thi_20_snt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test7.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/test7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thi_cuoi_module1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/cs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/module2/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/src/com/company/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -83,11 +67,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\C0822G1-hothinuong\module1\module3" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
@@ -137,6 +134,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="giai_thuat.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/giai_thuat.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.giai_thuat.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,6 +155,43 @@
       <updated>1664849696769</updated>
       <workItem from="1664849699739" duration="154000" />
       <workItem from="1664849870451" duration="1085000" />
+      <workItem from="1664865469846" duration="634000" />
+      <workItem from="1664953947336" duration="651000" />
+      <workItem from="1664984208374" duration="2000" />
+      <workItem from="1664984585421" duration="1023000" />
+      <workItem from="1665029142802" duration="2186000" />
+      <workItem from="1665069958681" duration="40000" />
+      <workItem from="1665130076613" duration="1197000" />
+      <workItem from="1665320366772" duration="74000" />
+      <workItem from="1665322152507" duration="421000" />
+      <workItem from="1665322738930" duration="194000" />
+      <workItem from="1665328190075" duration="11000" />
+      <workItem from="1665388546660" duration="595000" />
+      <workItem from="1665827233310" duration="2303000" />
+      <workItem from="1665835002280" duration="7868000" />
+      <workItem from="1666151889951" duration="230000" />
+      <workItem from="1666183020498" duration="303000" />
+      <workItem from="1667566596788" duration="636000" />
+      <workItem from="1667821450566" duration="1686000" />
+      <workItem from="1667890573558" duration="124000" />
+      <workItem from="1667902585021" duration="106000" />
+      <workItem from="1667919441622" duration="1011000" />
+      <workItem from="1667951144366" duration="568000" />
+      <workItem from="1667957662173" duration="238000" />
+      <workItem from="1667995566283" duration="442000" />
+      <workItem from="1667996039217" duration="292000" />
+      <workItem from="1668042996310" duration="470000" />
+      <workItem from="1668073178015" duration="614000" />
+      <workItem from="1668494427190" duration="8000" />
+      <workItem from="1668496213669" duration="5000" />
+      <workItem from="1668498926156" duration="1000" />
+      <workItem from="1668569353324" duration="338000" />
+      <workItem from="1668611932666" duration="594000" />
+      <workItem from="1668648061507" duration="638000" />
+      <workItem from="1669116608906" duration="3657000" />
+      <workItem from="1669175297455" duration="4002000" />
+      <workItem from="1669186247497" duration="5452000" />
+      <workItem from="1669195605196" duration="2529000" />
     </task>
     <servers />
   </component>
@@ -169,9 +211,61 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1664851134783">
+    <state x="515" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1665322182388">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1664851134783" />
+    <state x="515" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1665322182388" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1664866092472">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1664866092472" />
+    <state width="916" height="257" key="GridCell.Tab.0.bottom" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.0.center" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.0.left" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.0.right" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.1.bottom" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.1.center" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.1.left" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.1.right" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.2.bottom" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.2.center" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.2.left" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
+    <state width="916" height="257" key="GridCell.Tab.2.right" timestamp="1665842563686">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="916" height="257" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1665842563686" />
   </component>
 </project>

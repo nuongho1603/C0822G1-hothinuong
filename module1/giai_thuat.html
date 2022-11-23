@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // arr = [2,3,1,1];
+    // // let index = 2;
+    // // arr1=[3,3,1,2]
+    // sum = 0;
+    // sum1 = 0;
+    // for (let i = 1; i < arr.length - 2; i++) {
+    //     for (let j = i-1 ; j < i; j++) {
+    //         for (let k = i+2; k < arr.length; k++) {
+    //             sum += arr[j];
+    //             sum1 += arr[k];
+    //         }
+    //     }
+    //
+    // }
+    // if(sum === sum1){
+    //     alert("true");
+    // } else {
+    //     alert("false");
+    // }
+
+    function check(arr) {
+        for (let i = 1; i < arr.length - 1; i++) {
+            let sum1=0;
+            let sum2=0;
+            for (let j = 0; j < i; j++) {
+                sum1+= arr[j];
+            }
+            for (let j = i + 1; j < arr.length; j++) {
+                sum2 += arr[j];
+            }
+            if (sum1 === sum2) {
+                return true;
+            }
+        }
+        return false;
+    }
+    let arr=[9,1,5,3,1];
+    document.writeln(check(arr))
+</script>
+</body>
+</html>
