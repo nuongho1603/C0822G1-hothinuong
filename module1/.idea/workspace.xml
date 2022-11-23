@@ -20,29 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="803887aa-67ed-4b50-b97f-20641ddca6cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case_study/casestudybai4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/giai_thuat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/Thuc_hanh_mld3/practice_mld3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/exercise/exercise1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/exercise/exercise2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/exercise/link1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt4.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_on_thi/thi_thu/tt4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_on_thi/tl/fibonaci_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo_on_thi/tl/fibonaci_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/hien_thi_20_snt.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/hien_thi_20_snt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test7.html" beforeDir="false" afterPath="$PROJECT_DIR$/test/test7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thi_cuoi_module1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/thi_cuoi_module1/bai_2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/cs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/module2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/out/production/module2/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/exercise/exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/exercise/exercise2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +170,7 @@
       <workItem from="1669175297455" duration="4002000" />
       <workItem from="1669186247497" duration="5452000" />
       <workItem from="1669195605196" duration="2529000" />
+      <workItem from="1669205813162" duration="359000" />
     </task>
     <servers />
   </component>
