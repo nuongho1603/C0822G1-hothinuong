@@ -1,0 +1,45 @@
+#header {
+    background-color: black;
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    text-indent: 10px;
+    color: thistle;
+}
+
+#left {
+    background-color: thistle;
+    height: 600px;
+    width: 20%;
+    float: left;
+ text-align: center;
+}
+#s-body{
+    background-color: darkseagreen;
+    height: 600px;
+    width: 60%;
+    float: left;
+}
+#right{
+    background-color: lightsteelblue;
+    height: 600px;
+    width:20%;
+    float: left;
+}
+#footer{
+    background-color: darkgrey;
+    height: 70px;
+    width:100%;
+    clear: both;
+    text-align: center;
+    /*position: relative;*/
+}
+h1,h2{
+
+text-indent: 10px;
+}
+.cls{
+    font-family: Ebrima;
+    text-indent: 15px;
+ text-align: left;
+}

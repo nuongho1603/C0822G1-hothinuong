@@ -20,7 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="803887aa-67ed-4b50-b97f-20641ddca6cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/module3/exercise/exercise2.html" beforeDir="false" afterPath="$PROJECT_DIR$/module3/exercise/exercise2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/ss1_css/exercise/demo/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/create_layout_with_rwd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/exs1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/Thuc_hanh_mld3/practice_mld3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/exercise/exercise1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/exercise/exercise2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/exercise/link1.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -170,7 +177,9 @@
       <workItem from="1669175297455" duration="4002000" />
       <workItem from="1669186247497" duration="5452000" />
       <workItem from="1669195605196" duration="2529000" />
-      <workItem from="1669205813162" duration="359000" />
+      <workItem from="1669205813162" duration="991000" />
+      <workItem from="1669216753837" duration="1949000" />
+      <workItem from="1669252630541" duration="17000" />
     </task>
     <servers />
   </component>
@@ -194,10 +203,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="515" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1665322182388" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1664866092472">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1669252645524">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1664866092472" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1669252645524" />
     <state width="916" height="257" key="GridCell.Tab.0.bottom" timestamp="1665842563686">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
