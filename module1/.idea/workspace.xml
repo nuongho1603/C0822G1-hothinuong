@@ -20,14 +20,189 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="803887aa-67ed-4b50-b97f-20641ddca6cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module3/ss1_css/exercise/demo/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/create_layout_with_rwd.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/exs1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/Thuc_hanh_mld3/practice_mld3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/exercise/exercise1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/exercise/exercise2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module3/exercise/link1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/.idea/module3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss1_css/Thuc_hanh_mld3/practice_mld3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss1_css/exercise/demo/demo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss1_css/exercise/exercise1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss1_css/exercise/exercise2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss1_css/exercise/link1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/cach1/create_layout_part2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/cach1/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/cach2/create_layout_with_rwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise1/cach2/exs1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise2/Development_web_cartoon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise2/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss2_website_layout_design/exercise2/temp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-grid.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-reboot.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap-utilities.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.esm.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.esm.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/bootstrap-5.1.3-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/05d32363-d534-4d93-9b65-cde674775e71(1).js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/05d32363-d534-4d93-9b65-cde674775e71.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/0m120v.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/1x1clear.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/22b85d534a959cd49f92371c64b91abe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/4009169c82d815aa0d61bfe0faa57e8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/90-36431b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/9SLYA-PCQKP-CU56T-D2UD9-N4WJG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/Bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/ChangeMonitor-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/Clear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1AM01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1AONz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1DSqQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1DXIb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1DpU3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1hnXR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1hta6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1hta7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1hta7(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1uyOA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RE1uyOA(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RW5CFu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RW7DtR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RW7DtR(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RW7Li9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RW7Li9(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/RWaRQ0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/WR-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/a3698060313.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/a8e5657ad4817c99ff844c7af7668a91.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/aam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/ac-a1857c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/broker-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/broker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/cartcount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/d6-7475ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/dc-3db089" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/dest5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/fbds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/jquery-2.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/ld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/meBoot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/meCore.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/meversion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/microsoft-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/serverComponent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/sp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/store_enus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/t.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/._Shop Surface Pro Tablets, Surface Laptop, and Surface Book.htm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/._Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._05d32363-d534-4d93-9b65-cde674775e71(1).js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._05d32363-d534-4d93-9b65-cde674775e71.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._0m120v.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._1x1clear.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._22b85d534a959cd49f92371c64b91abe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._4009169c82d815aa0d61bfe0faa57e8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._90-36431b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._9SLYA-PCQKP-CU56T-D2UD9-N4WJG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._Bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._ChangeMonitor-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._Clear.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1AM01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1AONz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1DSqQ" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1DXIb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1DpU3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1hnXR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1hta6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1hta7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1hta7(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1uyOA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RE1uyOA(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RW5CFu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RW7DtR" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RW7DtR(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RW7Li9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RW7Li9(1)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._RWaRQ0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._WR-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._a3698060313.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._a8e5657ad4817c99ff844c7af7668a91.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._aam.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._ac-a1857c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._broker-config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._broker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._cartcount.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._d6-7475ca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._dc-3db089" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._dest5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._fbds.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._jquery-2.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._ld.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._meBoot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._meCore.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._meversion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._microsoft-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._saved_resource.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._serverComponent.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._sp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._store_enus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._t.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/download_in_james/__MACOSX/Shop Surface Pro Tablets, Surface Laptop, and Surface Book_files/._tags.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise1/create_gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise1/img_fjords.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise1/img_forest2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise1/img_lights3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise1/img_mountains4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise2/Microsoft-Windows-Cool-3D-Wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise2/Surface_HP_Holiday_Hero_3_1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise2/build_landing_Page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/exercise/exercise2/fq2f69K.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/practice/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module3/ss3_bootstrap/practice/styles.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +232,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../module3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -180,6 +355,7 @@
       <workItem from="1669205813162" duration="991000" />
       <workItem from="1669216753837" duration="1949000" />
       <workItem from="1669252630541" duration="17000" />
+      <workItem from="1669379902735" duration="21000" />
     </task>
     <servers />
   </component>
@@ -203,10 +379,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="515" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1665322182388" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1669252645524">
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1669379922006">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1669252645524" />
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1669379922006" />
     <state width="916" height="257" key="GridCell.Tab.0.bottom" timestamp="1665842563686">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
